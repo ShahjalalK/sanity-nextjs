@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [    
-    "./app/page.tsx",
-    "./components/studioNavbar.tsx",
-    "./components/logo.tsx",
-    "./components/navbar.tsx",
-    "./components/banner.tsx",
-    "./components/blogList.tsx",
+    "./pages/index.jsx",
+    "./pages/blog/[slug].jsx",
+    "./components/studioNavbar.jsx",
+    "./components/navbar.jsx",
+    "./components/myportablecomponents.jsx",
 
   ],
   theme: {
